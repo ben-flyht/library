@@ -5,7 +5,7 @@ class Book < ApplicationRecord
   validates :title, presence: true
   validates :isbn, presence: true, uniqueness: true
 
-  def borrowed?
-    borrowing.present?
+  def available?
+    !borrowing.persisted?
   end
 end
