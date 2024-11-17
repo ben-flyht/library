@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @borrowing %>
+
+<div>
+  <%= link_to "Edit this borrowing", edit_borrowing_path(@borrowing) %> |
+  <%= link_to "Back to borrowings", borrowings_path %>
+
+  <%= button_to "Destroy this borrowing", @borrowing, method: :delete %>
+</div>

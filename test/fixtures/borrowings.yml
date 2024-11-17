@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  member: one
+  book: one
+  paid: false
+
+two:
+  member: two
+  book: two
+  paid: false
